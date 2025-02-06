@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Header from "./header";
+import Header from "./component/Header";
 
 const ColorGames = [
   "green", "yellow", "blue", "red", "orange", "pink", "brown", "cyan", "lilac", "purple",
@@ -16,6 +16,8 @@ function App() {
     </div>
   );
 }
+
+
 
 function ColorGameSelection() {
   const [targetColor, setTargetColor] = useState("");
